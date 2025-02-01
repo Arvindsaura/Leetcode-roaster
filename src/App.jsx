@@ -95,9 +95,9 @@ Now let’s get personal:
 - **Reputation**: ${data.reputation} — Reputation? What reputation? Oh, I guess a couple of "great job!" comments aren’t enough to elevate that score.
 - **Contribution Points**: ${data.contributionPoints} — All those contributions, and yet your score still doesn't match the effort. Maybe next time, contribute more than just "here's a solution I copied."
 
-Roast ${username} for their weaknesses. Give them no mercy. Remind them of their flaws, but keep it humorous and savage. Make them wish they had never started this journey. Don’t repeat yourself, and make sure each insult lands like a punch to the gut.
+Roast ${username} for their weaknesses. Give them no mercy. Make them wish they had never started this journey. 
 
-Keep it under 200 words and make sure the roast feels fresh each time. Don't hold back, make it sting.`;
+Keep it under 200 words and make sure the roast feels fresh each time. Don't hold back, make it sting. leave no mercy for them.roast them so badly that i makes them cry`;
     
    
 
