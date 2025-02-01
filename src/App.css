@@ -109,7 +109,7 @@ button:disabled {
 
 footer {
   position: absolute;
-  bottom: 10px;  /* Slightly higher to avoid overlap */
+  bottom: 5px;  /* Slightly higher to avoid overlap */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -117,6 +117,7 @@ footer {
   color: white;
   width: 100%;
   padding: 10px;
+  margin-top: 15px;
 }
 
 footer a {
