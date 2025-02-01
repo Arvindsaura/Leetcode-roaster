@@ -7,15 +7,10 @@ function App() {
   const [roast, setRoast] = useState("");
   const [leetcodeData, setLeetcodeData] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [visitorCount, setVisitorCount] = useState(0);
+
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
-  useEffect(() => {
-    const storedCount = localStorage.getItem("visitorCount");
-    const newCount = storedCount ? parseInt(storedCount) + 1 : 1;
-    setVisitorCount(newCount);
-    localStorage.setItem("visitorCount", newCount);
-  }, []);
+ 
 
   useEffect(() => {
     document.body.className = theme;
@@ -137,7 +132,7 @@ function App() {
         </div>
         <footer>
             <p>Made by <a href="https://my-portfolio-zeta-six-85.vercel.app/">Arvind Puri</a></p>
-            <p>Visitor Count: {visitorCount}</p>
+          
           </footer>
           </>
       )}
