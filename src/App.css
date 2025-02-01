@@ -109,15 +109,15 @@ button:disabled {
 
 footer {
   position: absolute;
-  bottom: 5px;  /* Slightly higher to avoid overlap */
+    /* Slightly higher to avoid overlap */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   font-size: 14px;
   color: white;
   width: 100%;
-  padding: 10px;
-  margin-top: 15px;
+  
+  margin-top: 5px;
 }
 
 footer a {
@@ -126,9 +126,7 @@ footer a {
   font-weight: bold;
 }
 
-footer p {
-  margin: 5px 0;
-}
+
 
 
 /* Light Mode Styles */
