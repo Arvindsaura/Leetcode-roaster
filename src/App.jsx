@@ -112,6 +112,7 @@ function App() {
       {loading ? (
         <div className="loading">{waveLoadingText}</div>
       ) : (
+        <>
         <div className="app-container">
           <div className="card">
             <h1>Leetcode Roaster 🔥</h1>
@@ -128,15 +129,17 @@ function App() {
             {roast && <div className="roast-box"><p>{roast}</p></div>}
           </div>
 
-          <footer>
-            <p>Made by <a href="https://my-portfolio-zeta-six-85.vercel.app/">Arvind Puri</a></p>
-            <p>Visitor Count: {visitorCount}</p>
-          </footer>
+          
 
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === "dark" ? "🌞" : "🌙"}
           </button>
         </div>
+        <footer>
+            <p>Made by <a href="https://my-portfolio-zeta-six-85.vercel.app/">Arvind Puri</a></p>
+            <p>Visitor Count: {visitorCount}</p>
+          </footer>
+          </>
       )}
     </>
   );
