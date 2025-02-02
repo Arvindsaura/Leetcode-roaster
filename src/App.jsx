@@ -71,9 +71,9 @@ Total Questions: ${data.totalQuestions}
 Now let’s get personal:
 
 1. **Total Problems Solved:**
-   - If ${data.totalSolved} < 100: "Well, this is embarrassing. You’ve solved less problems than a beginner coding in their first week. Maybe you should try showing up to LeetCode once in a while?"
-   - If 100 <= ${data.totalSolved} < 500: "Oh, you’ve solved a few problems, but don’t get too excited. You’re like that guy who starts a workout routine and then quits after a week. Come back when you’re consistent."
-   - If ${data.totalSolved} >= 500: "Wow, over 500 problems? But here’s the thing — it’s not about the quantity, it’s about the quality. You’ve been spamming solutions like a bot with no brain. Congratulations on wasting time."
+   - If ${data.totalSolved} < 150: "Well, this is embarrassing. You’ve solved less problems than a beginner coding in their first week. Maybe you should try showing up to LeetCode once in a while?"
+   - If 150 <= ${data.totalSolved} < 400: "Oh, you’ve solved a few problems, but don’t get too excited. You’re like that guy who starts a workout routine and then quits after a week. Come back when you’re consistent."
+   - If ${data.totalSolved} >= 400: "Wow, over 500 problems? But here’s the thing — it’s not about the quantity, it’s about the quality. You’ve been spamming solutions like a bot with no brain. Congratulations on wasting time."
 
 2. **Easy Problems Solved:**
    - If ${data.easySolved} > ${data.mediumSolved} && ${data.easySolved} > ${data.hardSolved}: "So, easy problems are your thing? You’re like a ‘participation award’ winner at this point. Anyone can solve these. Why not challenge yourself, or is that too much for you?"
@@ -86,6 +86,7 @@ Now let’s get personal:
 4. **Hard Problems Solved:**
    - If ${data.hardSolved} < 10: "Hard problems? Nah, you’re too scared of them. You’re like a kid afraid of the dark. Want to grow? Face the real challenges instead of hiding from them."
    - If ${data.hardSolved} >= 10: "So you’ve solved a few hard problems? That’s cute. But let’s be real: How many times did you get stuck and just give up? Try solving a problem in one go without crying for help."
+   If ${data.hardSolved} >= 50: "So what is your source of copying the code, bcz i know u cant solve hard questions yourself"
 
 ---
 
